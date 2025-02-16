@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News India</title>
+    <style>
+        * {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:gray;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: black;
+    color:white;
+    padding: 10px 0;
+}
+  
+
+
+header h1 {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: red;
+
+}
+
+main {
+    margin-top: 20px;
+}
+
+.top-news {
+    background-color:gray;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.top-news h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.news-item {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.news-item img {
+    width: 500px;
+    margin-right: 20px;
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+    filter: grayscale(50%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.news-item img:hover {
+    transform: scale(1.05) rotate(3deg);
+    filter: grayscale(0%);
+    box-shadow: 10px 10px 20px rgba(65, 37, 37, 0.5);
+   
+}
+
+
+.news-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.news-content p {
+    font-size: 16px;
+    color: white;
+}
+
+.categories {
+    background-color:black;
+    padding: 20px 0;
+}
+
+.categories h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.category-item {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.category-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.category-item:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>News India</h1>
+            <nav>
+                <ul>
+                    <li><a href="newsindia.html">Home</a></li>
+                    <li><a href="https://indianexpress.com/section/political-pulse/">Politics</a></li>
+                    <li><a href="https://timesofindia.indiatimes.com/entertainment">Entertainment</a></li>
+                    <li><a href="https://www.thehindu.com/sport">Sports</a></li>
+                    <li><a href="https://www.google.com/aclk?sa=L&ai=DChcSEwibgZ3X7ciLAxVjqWYCHUvwDYIYABAAGgJzbQ&co=1&gclid=CjwKCAiAtsa9BhAKEiwAUZAszcB0xDHV33Vu2VLAhhv3ZB7mXHNEcDZ9qubz7fYsdZc6_KoEL804-BoC3UMQAvD_BwE&cce=1&sig=AOD64_0rQ5rM0MoV5KOHFdihbOqgQS4wrg&q&adurl&ved=2ahUKEwiBm5jX7ciLAxWeRmwGHfKlHhgQ0Qx6BAgIEAE">Technology</a></li>
+                    <li><a href="https://health.economictimes.indiatimes.com/news">Health</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="top-news">
+            <div class="container">
+                <h2>Top News</h2>
+                <article class="news-item">
+                    <a href="https://en.wikipedia.org/wiki/Economy_of_India"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRda8CE4fVCb2it2WmLRhgygJ9b3Qc0HC9dFg&s" alt="News Image"></a>
+                    <div class="news-content">
+                        <h3>India's Economy Sees Growth in 2025</h3>
+                        <p>The Indian economy is predicted to grow at a strong pace this year, with several key sectors showing promising developments...<a href="https://india.un.org/en/287164-un-report-forecasts-robust-growth-indian-economy">..CLICK HERE</a></p>
+                        
+                    </div>
+                </article>
+                <article class="news-item">
+                   <a href="https://www.grantthornton.in/insights/blogs/indias-tech-industry-driving-gdp-employment-and-innovation/"><img src="https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/01/full/1725204712-0459.jpg?im=Resize=(640,480)" alt="News Image"></a>
+                    <div class="news-content">
+                        <h3>Tech Innovations: India’s Growing Influence</h3>
+                        <p>India continues to establish itself as a hub for technology innovations, with startups and established firms leading the way...<a href="https://www.grantthornton.in/insights/blogs/indias-tech-industry-driving-gdp-employment-and-innovation/">..CLICK HERE</a></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <h2>Categories</h2>
+                <div class="category-item">
+                    <a href="https://indianexpress.com/section/political-pulse/">Politics</a>
+                </div>
+                <div class="category-item">
+                    <a href="https://timesofindia.indiatimes.com/entertainment">Entertainment</a>
+                </div>
+                <div class="category-item">
+                    <a href="https://www.thehindu.com/sport/">Sports</a>
+                </div>
+                <div class="category-item">
+                    <a href="https://health.economictimes.indiatimes.com/news">Health</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 News India. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
